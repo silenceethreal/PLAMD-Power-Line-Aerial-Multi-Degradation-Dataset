@@ -1,7 +1,7 @@
 # UAV-PowerLine-Degradation-Dataset
 > [!IMPORTANT]
 > ## 📦 Dataset Upload in Progress
-> The dataset is currently being uploaded to Zenodo and BaiduNetdisk. The download link will be updated here as soon as the upload is complete. Please **Watch** this repository or check back shortly. Thank you for your patience!
+> The dataset is currently being uploaded to Zenodo and BaiduNetdisk(finished). The download link will be updated here as soon as the upload is complete. Please **Watch** this repository or check back shortly. Thank you for your patience!
 ---
 ## Overview
 The **UAV PowerLine Degradation Dataset** is designed for benchmarking
@@ -25,6 +25,13 @@ training and evaluation paradigms.
 - **Object Detection Ready**: Annotations for power line components are
   provided in YOLO TXT format, with detection performance evaluable via
   the **Pseudo-Pseudo-I2I Metric (PPI2I)**.
+
+## Download links
+Zenodo: still being uploaded
+BaiduNetdisk:通过网盘分享的文件：PLAMD_Power Line Aerial Multi-Degradation Dataset
+链接: https://pan.baidu.com/s/1JUn03mTiTKXxSdXSjFs0Aw?pwd=8age 提取码: 8age 
+--来自百度网盘超级会员v7的分享
+
 ## How to Build an All-in-One Training Set
 
 Since PLAMD is organized by degradation type, researchers can

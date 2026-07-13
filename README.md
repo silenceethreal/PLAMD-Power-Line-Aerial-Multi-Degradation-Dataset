@@ -27,8 +27,8 @@ training and evaluation paradigms.
   the **Pseudo-Pseudo-I2I Metric (PPI2I)**.
 
 ## Download links
-Zenodo: still being uploaded
-BaiduNetdisk:通过网盘分享的文件：PLAMD_Power Line Aerial Multi-Degradation Dataset
+- Zenodo: still being uploaded
+- BaiduNetdisk:通过网盘分享的文件：PLAMD_Power Line Aerial Multi-Degradation Dataset
 链接: https://pan.baidu.com/s/1JUn03mTiTKXxSdXSjFs0Aw?pwd=8age 提取码: 8age 
 --来自百度网盘超级会员v7的分享
 

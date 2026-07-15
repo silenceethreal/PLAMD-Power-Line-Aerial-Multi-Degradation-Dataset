@@ -1,8 +1,5 @@
 # UAV-PowerLine-Degradation-Dataset
-> [!IMPORTANT]
-> ## 📦 Dataset Upload in Progress
-> The dataset is currently being uploaded to Zenodo and BaiduNetdisk(finished). The download link will be updated here as soon as the upload is complete. Please **Watch** this repository or check back shortly. Thank you for your patience!
----
+
 ## Overview
 The **UAV PowerLine Degradation Dataset** is designed for benchmarking
 image restoration and enhancement algorithms in the context of **unmanned
@@ -27,7 +24,7 @@ training and evaluation paradigms.
   the **Pseudo-Pseudo-I2I Metric (PPI2I)**.
 
 ## Download links
-- Zenodo: still being uploaded
+- Zenodo: https://zenodo.org/records/21321669?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6Ijc0ZTRjODk3LWRlN2QtNDYxZC05OTIwLTM4NDVhMDkzNmVlYiIsImRhdGEiOnt9LCJyYW5kb20iOiJmMzUzNDgxZmU3YTNkYTdiM2RhYmNmYjc5NTIwZmU2MCJ9.DRLs5idNvhRYNHbFH9fejBIsvY6ZakjzpM3qVNp3cfSBkmw30tPM1GB34GXe99ybSPa4TB6kzbs6xI1NaOfzjA
 - BaiduNetdisk:通过网盘分享的文件：PLAMD_Power Line Aerial Multi-Degradation Dataset
 链接: https://pan.baidu.com/s/1JUn03mTiTKXxSdXSjFs0Aw?pwd=8age 提取码: 8age 
 --来自百度网盘超级会员v7的分享
@@ -60,7 +57,7 @@ requirements (e.g., higher snow ratio for winter operations).
 | haze | 38,865 |
 | inpainting | 39,699 |
 | lowlight | 38,865 |
-| noise | 27,802] |
+| noise | 27,802 |
 | rain | 39,699 |
 | snow | 39,699 |
 | File format | JPG |

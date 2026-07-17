@@ -31,45 +31,8 @@ Source images are drawn from two public UAV power line inspection datasets — *
 PLAMD is distributed as **7 compressed archives**, one per degradation type. Each archive shares an identical internal hierarchy organized by **power line component category**. Images are provided as **degraded–clean pairs** for full-reference training and evaluation.
 {degradation_type}.zip            # e.g., haze.zip, rain.zip, snow.zip ...
 │
-├── {degradation_type}/           # All degraded images (e.g., haze/, rain/, snow/ ...)
-│   ├── component_mix_1K/
-│   ├── damper-preformed/
-│   ├── damper-stockbridge/
-│   ├── glass-insulator/
-│   ├── glass-insulator-big-shackle/
-│   ├── glass-insulator-small-shackle/
-│   ├── glass-insulator-tower-shackle/
-│   ├── lightning-rod-shackle/
-│   ├── lightning-rod-suspension/
-│   ├── overallL_2K/
-│   ├── plate/
-│   ├── polymer-insulator/
-│   ├── polymer-insulator-lower-shackle/
-│   ├── polymer-insulator-tower-shackle/
-│   ├── polymer-insulator-upper-shackle/
-│   ├── vari-grip/
-│   ├── yoke/
-│   └── yoke-suspension/
-│
-└── original/                     # Original clean reference images (identical structure)
-    ├── component_mix_1K/
-    ├── damper-preformed/
-    ├── damper-stockbridge/
-    ├── glass-insulator/
-    ├── glass-insulator-big-shackle/
-    ├── glass-insulator-small-shackle/
-    ├── glass-insulator-tower-shackle/
-    ├── lightning-rod-shackle/
-    ├── lightning-rod-suspension/
-    ├── overallL_2K/
-    ├── plate/
-    ├── polymer-insulator/
-    ├── polymer-insulator-lower-shackle/
-    ├── polymer-insulator-tower-shackle/
-    ├── polymer-insulator-upper-shackle/
-    ├── vari-grip/
-    ├── yoke/
-    └── yoke-suspension/
+├── {degradation_type} # All degraded images (e.g., haze/, rain/, snow/ ...) —— component_mix_1K/damper-preformed/damper-stockbridge/glass-insulator/glass-insulator-big-shackle/glass-insulator-small-shackle/glass-insulator-tower-shackle/lightning-rod-shackle/lightning-rod-suspension/overallL_2K/plate/polymer-insulator/polymer-insulator-lower-shackle/polymer-insulator-tower-shackle/polymer-insulator-upper-shackle/vari-grip/yoke/yoke-suspension
+└── original # Original clean reference images (identical structure) —— component_mix_1K/damper-preformed/damper-stockbridge/glass-insulator/glass-insulator-big-shackle/glass-insulator-small-shackle/glass-insulator-tower-shackle/lightning-rod-shackle/lightning-rod-suspension/overallL_2K/plate/polymer-insulator/polymer-insulator-lower-shackle/polymer-insulator-tower-shackle/polymer-insulator-upper-shackle/vari-grip/yoke/yoke-suspension
 ---
 ### Design Notes
 - **`component_mix_1K`**: a curated subset containing mixed component images at approximately **1K resolution**, useful for quick prototyping and lightweight experiments.
@@ -149,7 +112,7 @@ If you use PLAMD in your research, please cite:
   url          = {https://doi.org/10.5281/zenodo.21321669}
 }
 ---
-🙏 Acknowledgement
+## 🙏 Acknowledgement
 PLAMD builds upon two publicly available UAV power line inspection datasets. Please also cite:
 InsPLAD [1]:
 @article{InsPLAD2023,

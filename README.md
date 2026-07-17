@@ -75,8 +75,7 @@ PLAMD is distributed as **7 compressed archives**, one per degradation type. Eac
 - **`component_mix_1K`**: a curated subset containing mixed component images at approximately **1K resolution**, useful for quick prototyping and lightweight experiments.
 - **`overallL_2K`**: wide-view overall-scene images at approximately **2K resolution** (e.g., full transmission towers, multi-component line spans). Ideal for context-aware or scene-level restoration models.
 - All other categories contain images at **varying resolutions** depending on the original source crops.
-- Each category folder contains subfolders `clean/` (reference) and `degraded/` (degraded at random severity levels). The three severity levels (Light / Moderate / Severe) are controlled by **random parameter ranges during generation** rather than by explicit L1/L2/L3 subfolders.
-- Each category includes both **intact** (完好) and **defect** (缺损) component images sourced from InsPLAD and TTPLA, enabling research on restoration quality across varying asset conditions.
+- Several category includes both **good** and **rust/missing-cap/nest etc.** component images sourced from InsPLAD and TTPLA, enabling research on restoration quality across varying asset conditions.
 ---
 ## 📊 Dataset Statistics
 | Property | Value |
